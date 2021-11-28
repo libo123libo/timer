@@ -1,0 +1,17 @@
+server:
+  servlet:
+    context-path: /timer
+  port: 8080
+
+
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    database: 2
+
+logging:
+  level:
+    com.test.timer.controller: DEBUG
+    com.test.timer.redis: DEBUG
